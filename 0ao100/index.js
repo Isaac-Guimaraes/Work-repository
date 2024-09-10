@@ -1,6 +1,18 @@
-// hello world
-console.log("hello world!");
-// arrays e objetos
-let metas = ['josé', 'alo?']
+const start= ()  => {
 
-console.log(metas[0] + ' ' +  metas [1])
+    while(true){
+        let opcao = 'Sair'
+        switch(opcao) {
+            case 'Cadastrar':
+                console.log('Vamos cadastrar')
+                break
+            case 'Listar':
+                console.log('Vamos listar')
+                break
+            case 'Sair':
+                return
+        }
+    }
+}
+
+start()
